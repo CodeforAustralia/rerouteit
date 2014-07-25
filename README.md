@@ -51,3 +51,6 @@ Great - Head over to contribution.md to get started!
 ### Git Flow
 
 [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
+
+### Data Sources
+Check the data folder for information provided by [Kinesis](http://www.kinesis.org/).
