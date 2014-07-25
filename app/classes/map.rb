@@ -1,8 +1,8 @@
 class Map
-  def start_location
+  def origin
   end
 
-  def finish_location
+  def destination
   end
 
   def distance
