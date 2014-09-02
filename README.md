@@ -15,7 +15,7 @@ Welcome to the ReRoute It project. Let's get started with a few details about th
 
 #### Ruby on Rails
 
-If you do not have your Ruby on Rails environment setup, you can follow the steps here: 
+If you do not have your Ruby on Rails environment setup, you can follow the steps here:
 
 [https://gorails.com/setup/osx/10.9-mavericks](https://gorails.com/setup/osx/10.9-mavericks)
 
@@ -51,3 +51,7 @@ Great - Head over to contribution.md to get started!
 ### Git Flow
 
 [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
+
+### Data Sources
+- Check the data folder for information provided by [Kinesis](http://www.kinesis.org/).
+- Google Directions API for calculating distances and routes. https://developers.google.com/maps/documentation/directions/
