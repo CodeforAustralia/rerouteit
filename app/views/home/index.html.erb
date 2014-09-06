@@ -1,0 +1,23 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+<div ng-app="" ng-controller="directionsController" ng-submit="submit()">
+  <form class="form-group" >
+    <input type="text" class="form-control" placeholder="Origin" ng-model="user.firstName">
+    </br>
+    <input type="text" class="form-control" placeholder="Destination" ng-model="user.lastName">
+  </form>
+</div>
+
+<!-- <div ng-app="" class="input-form">
+	<div class="input-group">
+  	<input type="text" id="source_origin" class="form-control" placeholder="Origin" ng-model="origin" ng-enter="getDirection()">
+	</div>
+
+	<div class="input-group">
+  	<input type="text" class="form-control" placeholder="Destination" ng-model="destination" ng-enter="">
+	</div>
+
+	<p ng-bind="origin"></p>
+	<p ng-bind="destination"></p>
+</div>
+ -->
