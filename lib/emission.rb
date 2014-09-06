@@ -1,4 +1,4 @@
-module emission
+module Emission
 
 	Bicycle = 0 
 	Driving = 0

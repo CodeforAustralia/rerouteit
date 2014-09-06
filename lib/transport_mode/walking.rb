@@ -1,9 +1,9 @@
 module TransportMode
 	class Walking < TransportMode::Base
 
-		def get_directions
-			@mode = 'walking'
-			get_api
+		def initialize origin, destination
+			mode = 'walking'
+			super origin, destination, mode
 		end
 	end
 end

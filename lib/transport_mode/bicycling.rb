@@ -1,9 +1,9 @@
 module TransportMode
 	class Bicycling < TransportMode::Base
 
-		def get_directions
-			@mode = 'bicycling'
-			get_api
+		def initialize origin, destination
+			mode = 'bicycling'
+			super origin, destination, mode
 		end
 	end
 end
