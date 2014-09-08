@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/CodeforAustralia/rerouteit.png)](http://travis-ci.org/CodeforAustralia/rerouteit?branch=master) [![Dependency Status](https://gemnasium.com/CodeforAustralia/rerouteit.svg)](https://gemnasium.com/CodeforAustralia/rerouteit) [![Test Coverage](https://codeclimate.com/github/CodeforAustralia/rerouteit/badges/coverage.svg)](https://codeclimate.com/github/CodeforAustralia/rerouteit) [![Code Climate](https://codeclimate.com/github/CodeforAustralia/rerouteit/badges/gpa.svg)](https://codeclimate.com/github/CodeforAustralia/rerouteit)
+
 ReRoute It
 ==========
 
@@ -7,7 +9,7 @@ Code For Australia's version of the Code for America ReRoute It transport choice
 
 Welcome to the ReRoute It project. Let's get started with a few details about the application.
 
-### Frameworks/Tools used
+### Frameworks/Tools Used
 
 - Ruby on Rails 4.1.1
 - Git / Git Flow
