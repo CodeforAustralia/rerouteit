@@ -24,7 +24,6 @@ end
 
 group :development do
   gem 'guard-rspec', require: false
-  gem 'spring'
 end
 
 # Use debugger
