@@ -11,7 +11,7 @@ Welcome to the ReRoute It project. Let's get started with a few details about th
 
 ### Frameworks/Tools Used
 
-- Ruby on Rails 4.1.1
+- Ruby on Rails 4.1.5
 - Git / Git Flow
 - PostgreSQL
 
