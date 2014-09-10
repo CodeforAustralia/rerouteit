@@ -23,7 +23,6 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'rspec-rails'
   gem 'spring-commands-rspec'
-  gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
   gem 'capybara'
 end
