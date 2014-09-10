@@ -5,6 +5,8 @@ rvm:
 before_script:
   - bundle exec rake db:create db:migrate
 script: bundle exec rspec spec
+notifications:
+  email: false
 addons:
   code_climate:
     repo_token: b0a721632e735a7d62f1f3b1be2e11d2e34f0645ba93025f80bc9fb5e70a6e63
