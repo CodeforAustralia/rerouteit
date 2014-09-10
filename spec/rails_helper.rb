@@ -1,10 +1,10 @@
-require "codeclimate-test-reporter"
 require "simplecov"
+require "coveralls"
 
 SimpleCov.start do
   formatter SimpleCov::Formatter::MultiFormatter[
     SimpleCov::Formatter::HTMLFormatter,
-    CodeClimate::TestReporter::Formatter
+    Coveralls::SimpleCov::Formatter
   ]
 
   add_filter "/config/"
