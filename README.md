@@ -12,7 +12,7 @@ the application.
 
 ### Frameworks/Tools Used
 
-- Ruby on Rails 4.1.5
+- Ruby on Rails 4.1
 - Git / Git Flow
 - PostgreSQL
 - NodeJS (for asset pipeline)
