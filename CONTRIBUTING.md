@@ -7,8 +7,8 @@ This is the contribute.md of our project. Great to have you here. Here are a few
 * Project Lead - Chris D'Aloisio
 * Technical Lead - *required*
 * Design Lead - Pedro Rosas
-* Programmer - Martin Feckie
-* Programmer - Rupam Shaw
+* Programmer - Christopher Chow
+* Programmer - Arvind CJ
 * Designer - *required*
 
 If you want to join the main team, sign-in and tap on to the project at [http://www.codeforaustralia.org/projects/reroute-it](http://www.codeforaustralia.org/projects/reroute-it)
@@ -19,12 +19,12 @@ If you want to join the main team, sign-in and tap on to the project at [http://
 
 ## Adding new features
 
-This section includes advice on how to build new features for the project & what kind of process it includes. 
+This section includes advice on how to build new features for the project & what kind of process it includes.
 
 * This is how we like people to add new features:
 	- create a new `feature/123-feature-name` branch where the number corresponds to an issue (where relevant)
 	- push your completed branch to `origin`
-* Here are some specifics on the coding style we prefer:  
+* Here are some specifics on the coding style we prefer:
 	- 2 spaces, not tabbed
 	- if in doubt, follow the Github style guides
 * This is how you send your pull request:
@@ -45,7 +45,7 @@ maintainers is around: **48 hours**
 * Look at existing bugs and help us understand if:
 	* The bug is reproducible?
 	* Is it reproducible in other environments (browsers)?
-	* What are the steps to reproduce? 
+	* What are the steps to reproduce?
 * You can remove duplicate bug reports
 
 
