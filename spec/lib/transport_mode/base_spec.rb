@@ -33,5 +33,13 @@ describe TransportMode::Base do
         expect(trip.time_in_minutes).to be_between(15, 25).inclusive
       end
     end
+
+    context 'when using public transport from Lilydale to Mooroolbark' do
+      subject(:trip) { TransportMode::Base.new('Sydney Town Hall', 'Central Train Station Sydney', :transit) }
+
+      it 'should be greater than 7 minutes and no more than 14 minutes' do
+        expect(trip.time_in_minutes).to be_between(7, 14).inclusive
+      end
+    end
   end
 end
