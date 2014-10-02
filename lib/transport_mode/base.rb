@@ -7,8 +7,13 @@ module TransportMode
       @mode = mode
     end
 
-    def get_directions
-      GoogleDirections.new(@origin, @destination, :mode => @mode).xml
+    def time_in_minutes
+      data.drive_time_in_minutes
+    end
+
+    private
+    def data
+      @data ||= GoogleDirections.new(@origin, @destination, mode: @mode, departure_time: Time.now.to_i)
     end
   end
 end
