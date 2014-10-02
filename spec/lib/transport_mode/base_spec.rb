@@ -25,5 +25,13 @@ describe TransportMode::Base do
         expect(trip.time_in_minutes).to be_between(5, 15).inclusive
       end
     end
+
+    context 'when bicycling from Lilydale to Mooroolbark' do
+      subject(:trip) { TransportMode::Base.new('Lilydale Train Station', 'Mooroolbark Train Station', :bicycling) }
+
+      it 'should be greater than 15 minutes and no more than 25 minutes' do
+        expect(trip.time_in_minutes).to be_between(15, 25).inclusive
+      end
+    end
   end
 end
