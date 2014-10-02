@@ -13,7 +13,7 @@ module TransportMode
 
     private
     def data
-      @data ||= GoogleDirections.new(@origin, @destination, :mode => @mode)
+      @data ||= GoogleDirections.new(@origin, @destination, mode: @mode, departure_time: Time.now.to_i)
     end
   end
 end
