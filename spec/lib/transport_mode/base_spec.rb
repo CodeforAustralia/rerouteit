@@ -34,7 +34,7 @@ describe TransportMode::Base do
       end
     end
 
-    context 'when using public transport from Lilydale to Mooroolbark' do
+    context 'when using public transport from Sydney Town Hall to Central Train Station Sydney' do
       subject(:trip) { TransportMode::Base.new('Sydney Town Hall', 'Central Train Station Sydney', :transit) }
 
       it 'should be greater than 7 minutes and no more than 14 minutes' do
