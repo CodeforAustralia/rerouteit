@@ -1,6 +1,8 @@
 module TransportMode
   class Base
 
+    attr_accessor :mode
+
     def initialize origin, destination, mode
       @origin = origin
       @destination = destination
@@ -9,6 +11,10 @@ module TransportMode
 
     def time_in_minutes
       data.drive_time_in_minutes
+    end
+
+    def emissions
+      Emission.value(mode) * data.distance.to_f
     end
 
     private
