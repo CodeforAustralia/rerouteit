@@ -1,0 +1,31 @@
+<% if @trips.any? %>
+  <table class="table table-bordered">
+    <thead>
+      <td>Mode</td>
+      <td>Emissions</td>
+      <td>Cost</td>
+      <td>Calories</td>
+      <td>Time</td>
+      <td>Distance</td>
+    </thead>
+
+    <tbody>
+      <% @trips.each do |trip| %>
+        <tr>
+          <td><%= trip.transport_mode.name %></td>
+          <% if trip.results? %>
+            <td><%= trip.emissions %> kg of CO2</td>
+            <td>Not implemented yet</td>
+            <td>Not implemented yet</td>
+            <td><%= trip.time_in_minutes %> minutes</td>
+            <td><%= trip.distance_in_metres%> metres</td>
+          <% else %>
+            <td colspan="5">Couldn't find directions from Google for either the origin or destination</td>
+          <% end %>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <p>Please provide both origin and destination</p>
+<% end %>

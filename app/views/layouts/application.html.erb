@@ -33,8 +33,6 @@
     <!-- For all other devices -->
     <!-- Size should be 32 x 32 pixels -->
     <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
-
-    <%= javascript_include_tag "application" %>
   </head>
   <body>
 
@@ -46,28 +44,21 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#">RerouteIt</a>
-        <div class="navbar-collapse collapse navbar-responsive-collapse">
-          <ul class="nav navbar-nav">
-            <li><%= link_to "Link1", "/path1"  %></li>
-            <li><%= link_to "Link2", "/path2"  %></li>
-            <li><%= link_to "Link3", "/path3"  %></li>
-          </ul>
-        </div>
       </div>
     </div>
 
     <div class="container">
+      <%= yield %>
+
       <div class="row">
         <div class="col-lg-12">
-          <%= yield %>
+          <footer>
+            <p>&copy; Code for Australia <%= Date.today.year %></p>
+          </footer>
         </div>
       </div><!--/row-->
-
-      <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
-
     </div> <!-- /container -->
-
   </body>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <%= javascript_include_tag "application" %>
 </html>
