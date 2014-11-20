@@ -14,6 +14,5 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require home
-//= require angular
 //= require turbolinks
 //= require_tree .
