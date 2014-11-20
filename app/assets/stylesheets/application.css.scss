@@ -1,2 +1,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#spinner {
+  display: none;
+  margin: 0 auto;
+  background: asset-url("spinner.gif") no-repeat;
+  height: 30px;
+  width: 30px;
+}
