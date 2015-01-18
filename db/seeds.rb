@@ -1,7 +1,9 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+TransportMode.create([
+  { name: "Train", code: "train", kg_co2_per_km: 0.095 },
+  { name: "Bus", code: "bus", kg_co2_per_km: 0.130 },
+  { name: "Ferry", code: "ferry", kg_co2_per_km: 0.181 },
+  { name: "Light Rail", code: "light_rail", kg_co2_per_km: 0.181 },
+  { name: "Walk", code: "walk", kg_co2_per_km: 0 },
+  { name: "Car", code: "car", kg_co2_per_km: 0.255 },
+  { name: "Electric Car", code: "electric_car", kg_co2_per_km: 0.077 }
+])
